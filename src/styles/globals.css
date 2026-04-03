@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-primary: #0a0a0f;
+  --bg-card: #111118;
+  --bg-elevated: #1a1a24;
+  --accent-green: #00e5a0;
+  --accent-red: #ff4d6d;
+  --accent-blue: #4d79ff;
+  --text-primary: #f0f0f5;
+  --text-muted: #7070a0;
+  --border: #2a2a3a;
+}
+
+:root.light {
+  --bg-primary: #f4f4f8;
+  --bg-card: #ffffff;
+  --bg-elevated: #eaeaf0;
+  --accent-green: #00c47a;
+  --accent-red: #e63655;
+  --accent-blue: #3060ee;
+  --text-primary: #0a0a0f;
+  --text-muted: #7070a0;
+  --border: #e0e0ea;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  transition: background 0.3s, color 0.3s;
+}
+
+h1, h2, h3 {
+  font-family: 'Syne', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
