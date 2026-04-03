@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FinTrack — Finance Dashboard
 
 A clean, interactive and intelligent finance dashboard built with React + Vite.
@@ -144,3 +145,7 @@ src/
 │   └── Planning.jsx
 └── styles/
     └── globals.css
+=======
+# finance-dashboard
+A clean and interactive finance dashboard built with React, featuring role-based UI, budget tracking, spending forecast and financial health score.
+>>>>>>> e1ad0f657cc906ec4b86cef66a4fad4a80b25644
