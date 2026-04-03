@@ -4,10 +4,10 @@
 A clean, interactive and intelligent finance dashboard built with React + Vite.
 
 ## Live Demo
-[Add your Vercel link here]
+[https://fintrack-dashboard-rho.vercel.app/]
 
 ## Repository
-[Add your GitHub link here]
+[https://github.com/SinchanaDev/finance-dashboard.git]
 
 ---
 
